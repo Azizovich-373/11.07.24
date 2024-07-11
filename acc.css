@@ -1,0 +1,48 @@
+.cont_acc{
+    margin: 100px auto;
+    width: 950px;
+}
+.box_profile{
+    width: 578px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.face{
+    width: 152px;
+    height: 152px;
+    background-color: #b1b1b1;
+    border-radius: 50%;
+}
+.about_acc{
+    display: flex;
+    gap: 10px;
+}
+.folowers{
+    margin: 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.content_cat{
+    width: 400px;
+    margin: 10px auto 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.content_acc{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+.content_box{
+    width: 304px;
+    height: 304px;
+    background-color: #b1b1b1;
+}
+.elem{
+    display: flex;
+    gap: 5px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>10.07.24</title>
+</head>
+<body>
+    <header>
+        <div class="box_header">
+            <a href="./index.html" class="logo"><img src="./svg/logo.svg" alt=""></a>
+            <input spa class="search" name="search" type="text" placeholder="Search">
+            <div class="icons">
+                <a href="./index.html"><div class="icon"><img src="./svg/home.svg" alt=""></div></a>
+                <div class="icon messenger"><img src="./svg/messenger.svg" alt=""></div>
+                <div class="icon"><img src="./svg/safari.svg" alt=""></div>
+                <div class="icon"><img src="./svg/like.svg" alt=""></div>
+                <a href="./pages/account.html"><div class="profile"></div></a>
+            </div>
+        </div>
+    </header>
+    <div class="container">   
+        <div class="cont_left">
+            <div class="stories"></div>
+            <div class="cont_pub"></div>
+        </div>
+        <div class="cont_right">
+            <div class="user-profile">
+                <div class="profile-pic"></div>
+                <div class="info_user">
+                    <h4 class="username">nickname</h4>
+                    <h5 class="name">Name Surname</h5>
+                </div>
+                <button class="btn">Switch</button>
+            </div>
+            <div class="suggestions">
+                <h3 class="for_you">Suggestions For You</h3>    
+            </div>
+        </div> 
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="post-image-container">
+            <img src="https://via.placeholder.com/450x600" alt="Post Image" class="post-image">
+          </div>
+          <div class="comment-section">
+            <div class="comment">
+            </div>
+            <!-- Add more comments as needed -->
+            <div class="comment-input">
+              <input type="text" placeholder="Добавьте комментарий...">
+              <button>Отправить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
